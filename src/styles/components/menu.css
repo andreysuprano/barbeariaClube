@@ -1,0 +1,25 @@
+.navbar-collapse {
+    justify-content: left;
+   
+}
+.navbar img{
+    width: 100px;
+    margin-bottom: -50px;
+}
+ .navbar{
+     top: 0;
+     width: 100vw;
+     position: fixed;
+     z-index: 9999;
+ }
+
+ #navbarNav{
+     text-align: center;
+     
+ }
+ .navbar-toggler{
+     margin-right: 30px;
+ }
+
+
+
