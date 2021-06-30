@@ -1,20 +1,106 @@
 
 #page-principal{
-background: none;
+display: flex;
+flex-direction: column;
+justify-content: center;
 
 }
-.carousel{
-   
-    margin: 0 auto;
-    width: 50vw;
+.fundo{
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    animation-name: opa;
+    animation-duration: 4s;
+    transition: all 3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+@keyframes opa {
+    0%{
+        opacity: 0;
+     
+    }50%{
+        opacity: 0.1;
+    }
+    100%{
+        opacity: 1;
+     
+    }
 }
 
-.carousel-inner{
-    margin-top: 70px;
-    left: -30%;
-    width:80vw;
-    height: 100vh;
- 
-    
+.bannerG{
+    display: block;
+    margin-top: 2rem;
+    border-radius: 0rem 0rem 21rem 21rem;
+    animation-name: fromTop;
+    animation-duration: 2s;
+    transition: all 2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
+@media screen and (max-width: 1500px) {
+    .bannerG{
+        display: block;
+        margin-top: 4rem;
+    border-radius: 0rem 0rem 21rem 21rem;
+    animation-name: fromTop;
+    animation-duration: 2s;
+    transition: all 2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    }
+}
+.bannerM{
+    display: none;
+}
+
+.bannerP{
+    display: none;
+}
+  @media screen and (max-width: 1200px) {
+    .bannerG{
+        display: none;
+    }
+
+    .bannerM{
+        display: block;
+        margin-top: -20rem;
+        border-radius: 0rem 0rem 21rem 21rem;
+        animation-name: fromTop;
+        animation-duration: 2s;
+        transition: all 2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    }
+    @media screen and (max-width: 900px) {
+        .bannerM{
+            display: block;
+            margin-top: 0rem;
+            border-radius: 0rem 0rem 21rem 21rem;
+            animation-name: fromTop;
+            animation-duration: 2s;
+            transition: all 2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .bannerG{
+        display: none;
+    }
+    .bannerM{
+        display: none;
+    }
+    .bannerP{
+        display: block;
+        margin-top: -4rem;
+        border-radius: 0rem 0rem 8rem 8rem;
+        animation-name: fromTop;
+        animation-duration: 2s;
+        transition: all 2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    }
+
+
+  }
+  @keyframes fromTop {
+    0%{
+        opacity: 0;
+      transform: translateY(-50rem);
+    }100%{
+        opacity: 1;
+       transform: translateY(0rem);
+    }
+}

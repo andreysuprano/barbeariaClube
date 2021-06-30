@@ -15,19 +15,19 @@ export default function Menu() {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <Link className="nav-link" aria-current="page" to="/">Principal</Link>
+          <Link id="hoverNav" className="nav-link" aria-current="page" to="/">Principal</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/equipe">Equipe</Link>
+          <Link id="hoverNav" className="nav-link" to="/equipe">Equipe</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/servicos">Serviços</Link>
+          <Link id="hoverNav" className="nav-link" to="/servicos">Serviços</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/galeria">Galeria</Link>
+          <Link id="hoverNav" className="nav-link" to="/galeria">Galeria</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/contato">Contato</Link>
+          <Link id="hoverNav" className="nav-link" to="/contato">Contato</Link>
         </li>
        
       </ul>

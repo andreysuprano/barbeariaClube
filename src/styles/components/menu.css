@@ -5,11 +5,13 @@
 .navbar img{
     width: 100px;
     margin-bottom: -50px;
+   
 }
  .navbar{
      top: 0;
      width: 100vw;
      position: fixed;
+     box-shadow: #010101 0px 0px 20px 2px;
      z-index: 9999;
  }
 
@@ -19,6 +21,10 @@
  }
  .navbar-toggler{
      margin-right: 30px;
+ }
+
+ #hoverNav:hover{
+    color:#a76849;
  }
 
 

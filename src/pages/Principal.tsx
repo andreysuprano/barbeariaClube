@@ -1,20 +1,25 @@
 import React from 'react';
 import '../styles/pages/principal.css';
-import fotoEquipe from '../images/equipe01.jpeg'
-
-import fotocasa02 from '../images/casa02.jpeg'
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
-import { Link } from 'react-router-dom';
+import bannerG from "../images/bannerBrowser-1800x768.png";
+import bannerM from "../images/bannerPad-1080x1080.png"
+import bannerP from "../images/bannerMobile-1080x1920.png";
+import fundo from "../images/fundoBanner2.svg";
+
 
 function Principal() {
     return (
      
         <div id="page-principal">
             <Menu />
+            <img src={bannerG} className="card-img bannerG" alt="Barbearia Clube"/>
+            <img src={bannerM} className="card-img bannerM" alt="Barbearia Clube"/>
+            <img src={bannerP} className="card-img bannerP" alt="Barbearia Clube"/>
+            <img src={fundo} className="card-img fundo" alt="Barbearia Clube"/>
 
            
-         
+{/*          
             <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -49,7 +54,7 @@ function Principal() {
     <span className="carousel-control-next-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Next</span>
   </button>
-</div>
+</div> */}
          
         <Footer />
         </div>

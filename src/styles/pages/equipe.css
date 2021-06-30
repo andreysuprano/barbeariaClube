@@ -1,19 +1,36 @@
 #page-equipe {
    background: none;
-    
+   margin-bottom: 10rem;
+   margin-top: 7rem;
 }
-main{
-    margin-top: 80px;
-   }
+
 
 .card{
-    max-width: 60vw;
-   margin: 0 auto;
+   box-shadow: #0101015b 0px 0px 5px 0.5px;
+   text-align: center;
+   border-radius: 0.5rem;
+   /* border: solid 3px ; */
 }
 
-@media (max-width:600px){
-    .card{
-        max-width: 100vw;
-        margin-left: -10px;
-    }
+.card img{
+    margin: 10px auto;
+    max-width: 18rem;
+    max-height: 28rem;
+    /* border: solid 3px #a76849 ; */
+    border-radius: 5rem;
+    /* box-shadow: #010101 0px 0px 20px 1px; */
 }
+
+.ball{
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    background-color:#a76849;
+    border-radius: 50%;
+    margin-top: -1.3rem;
+    margin-left: 9rem;
+    font-size: 1.7rem;
+    border: solid 3px;
+    padding: 0.2rem;
+}
+
