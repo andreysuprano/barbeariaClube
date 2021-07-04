@@ -1,5 +1,5 @@
 #page-servicos {
-   background: none;
+   background:none;
    margin-bottom: 10rem;
 }
 main{
@@ -19,24 +19,48 @@ main{
        font-size: 14px;
       
    }
-
+   span{
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      text-align: left;
+      
+   }
+   strong{
+      margin-right: 1rem;
+   }
+  
  
 
 
-   @media (max-width:600px){
+   @media screen and (max-width:1000px){
     main{
-       width: 100%;
+       width: 95%;
        margin-top:3.5rem;
-       margin-left: 0;
-       margin-right: 0;
+       margin-left: 1rem;
+       margin-right: 0px;
        padding: 10px;
        }
+   
     .badge{
-        font-size: 16px;
+       padding: 0.5rem;
+        font-size: 12px;
          
      }
      .list-group{
         font-size: 12px;
     }
+    .list-group-item{
+     
+     width: 100%;
+       text-align: left;
+      font-size: 14px;
+    }
+    .out{
+      text-align: left;
+       margin-left: 1rem;
+       display: none;
+    }
+ 
 }
   

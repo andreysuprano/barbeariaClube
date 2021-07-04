@@ -113,7 +113,7 @@ function Servicos() {
         <ul className="list-group">
   <li className="list-group-item d-flex justify-content-between align-items-center">
   Sobrancelha
-    <span className="badge bg-dark rounded-pill">R$ 30,00/design ou cera - R$ 20,00/tirar excesso</span>
+    <span className="badge bg-dark rounded-pill">R$ 30,00/design ou cera</span>
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
   Ouvidos
@@ -121,7 +121,7 @@ function Servicos() {
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
   Nariz
-    <span className="badge bg-dark rounded-pill">R$ 15,00</span>
+    <span className="badge bg-dark rounded-pill">R$ 20,00</span>
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
   Axilas
@@ -129,15 +129,15 @@ function Servicos() {
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
   Braço
-    <span className="badge bg-dark rounded-pill">R$ 70,00/inteiro - R$ 35,00/meio</span>
+    <span className="badge bg-dark rounded-pill">R$ 70,00/inteiro -<br></br> R$ 35,00/meio</span>
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
  Perna
-    <span className="badge bg-dark rounded-pill">R$ 85,00/inteiro - R$ 40,00/meio</span>
+    <span className="badge bg-dark rounded-pill">R$ 85,00/inteiro -<br></br> R$ 40,00/meio</span>
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
   Costas
-    <span className="badge bg-dark rounded-pill">R$ 60,00/inteiro - R$ 35,00/meio</span>
+    <span className="badge bg-dark rounded-pill">R$ 60,00/inteiro -<br></br> R$ 35,00/meio</span>
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
   Costas e ombro
@@ -145,11 +145,11 @@ function Servicos() {
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
  Peito
-    <span className="badge bg-dark rounded-pill">R$ 60,00/completo - R$ 35,00/meio</span>
+    <span className="badge bg-dark rounded-pill">R$ 60,00/completo -<br></br> R$ 35,00/meio</span>
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
   Abdome
-    <span className="badge bg-dark rounded-pill">R$ 25,00 - R$ 80,00 + peito</span>
+    <span className="badge bg-dark rounded-pill">R$ 25,00 -<br></br> R$ 80,00 + peito</span>
   </li>
 </ul>
 
@@ -199,15 +199,15 @@ Mão
 
         <ul className="list-group">
   <li className="list-group-item d-flex justify-content-between align-items-center">
-  <strong>Relaxante</strong>  <small>Suave, mas profunda. Age sobre pontos localizados do corpo, promovendo bem-estar e relaxamento. Inclui massagem facial.</small>
-    <span className="badge bg-dark rounded-pill">R$ 90,00/60min - R$ 60,00/30min</span>
+  <strong>Relaxante</strong>  <small className="out">Suave, mas profunda. Age sobre pontos localizados do corpo, promovendo bem-estar e relaxamento. Inclui massagem facial.</small>
+    <span className="badge bg-dark rounded-pill">R$ 90,00/60min -<br></br> R$ 50,00/30min</span>
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
-  <strong>Terapêutica</strong>   <small>Indicada para quem sofre com dores musculares, lombares e no nervo ciático. A técnica proporciona alívio e tratamento.</small>
-    <span className="badge bg-dark rounded-pill">R$ 100,00/60min - R$ 50,00/30min</span>
+  <strong>Terapêutica</strong>   <small className="out">Indicada para quem sofre com dores musculares, lombares e no nervo ciático. A técnica proporciona alívio e tratamento.</small>
+    <span className="badge bg-dark rounded-pill">R$ 110,00/60min -<br></br> R$ 60,00/30min</span>
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
-  <strong>Mix de massagem </strong>  <small>Sessão com maior duração, combinando massagem esportiva nas pernas, braços e costas e relaxante no abdome. Rosto e cabeça. Termina com reflexologia nos pés.</small>
+  <strong>Mix de massagem </strong>  <small className="out">Sessão com maior duração, combinando massagem esportiva nas pernas, braços e costas e relaxante no abdome. Rosto e cabeça. Termina com reflexologia nos pés.</small>
     <span className="badge bg-dark rounded-pill">R$ 135,00</span>
   </li>
 </ul>
@@ -220,15 +220,15 @@ Mão
 
         <ul className="list-group">
   <li className="list-group-item d-flex justify-content-between align-items-center">
- <strong>Pacote Ouro</strong> <small>Cabelo, hidratação capilar, barba, mão, retirada de pelos faciais, massagem relaxante, faxina da cara e podologia.</small>
+ <strong>Pacote Ouro</strong> <small className="out">Cabelo, hidratação capilar, barba, mão, retirada de pelos faciais, massagem relaxante, faxina da cara e podologia.</small>
     <span className="badge bg-dark rounded-pill">R$ 425,00</span>
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
-  <strong>Pacote Prata</strong><small>Cabelo, hidratação capilar, barba, pé, mão, retirada de pelos faciais, hidratação facial e massagem relaxante.</small>
+  <strong>Pacote Prata</strong><small className="out">Cabelo, hidratação capilar, barba, pé, mão, retirada de pelos faciais, hidratação facial e massagem relaxante.</small>
     <span className="badge bg-dark rounded-pill">R$ 350,00</span>
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
-   <strong>Pacote Bronze</strong><small>Cabelo, hidratação capilar, barba, pé, mão, retirada de pelos faciais e quick massage.</small>
+   <strong>Pacote Bronze</strong><small className="out">Cabelo, hidratação capilar, barba, pé, mão, retirada de pelos faciais e quick massage.</small>
     <span className="badge bg-dark rounded-pill">R$ 250,00</span>
   </li>
 </ul>

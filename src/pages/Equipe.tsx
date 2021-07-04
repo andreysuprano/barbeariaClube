@@ -40,8 +40,8 @@ function Equipe() {
     <div className="ball"><i className="fas fa-cut"></i></div>
     <img src={perfilWag} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title"><strong>Wagner</strong></h5>
+        <p className="card-text"><small>18 anos de experiência</small></p>
       </div>
     </div>
   </div>
@@ -51,8 +51,8 @@ function Equipe() {
     <div className="ball"><i className="fas fa-cut"></i></div>
     <img src={leoperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title"><strong>Léo</strong></h5>
+        <p className="card-text"><small>14 anos de experiência</small></p>
       </div>
     </div>
   </div>
@@ -62,8 +62,8 @@ function Equipe() {
     <div className="ball"><i className="fas fa-cut"></i></div>
     <img src={adrianoperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title"><strong>Adriano</strong></h5>
+        <p className="card-text"><small>34 anos de experiência</small></p>
       </div>
     </div>
   </div>
@@ -72,8 +72,8 @@ function Equipe() {
     <div className="ball"><i className="fas fa-cut"></i></div>
     <img src={pedroperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title"><strong>Pedro</strong></h5>
+        <p className="card-text"><small>6 anos de experiência</small></p>
       </div>
     </div>
   </div>
@@ -82,8 +82,8 @@ function Equipe() {
     <div className="ball"><i className="fas fa-cut"></i></div>
     <img src={fernandoperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title"><strong>Fernando</strong></h5>
+        <p className="card-text"><small>16 anos de experiência</small></p>
       </div>
     </div>
   </div>
@@ -92,8 +92,8 @@ function Equipe() {
     <div className="ball"><i className="fas fa-cut"></i></div>
     <img src={guiperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title"><strong>Guilherme</strong></h5>
+        <p className="card-text"><small>7 anos de experiência</small></p>
       </div>
     </div>
   </div>
@@ -102,8 +102,8 @@ function Equipe() {
     <div className="ball"><i className="fas fa-cut"></i></div>
     <img src={walperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title"><strong>Waldemar</strong></h5>
+        <p className="card-text"><small>20 anos de experiência</small></p>
       </div>
     </div>
   </div>
@@ -112,8 +112,8 @@ function Equipe() {
     <div className="ball"><i className="fas fa-cut"></i></div>
     <img src={gustavoperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title"><strong>Gustavo</strong></h5>
+        <p className="card-text"><small>7 anos de experiência</small></p>
       </div>
     </div>
   </div>
@@ -122,8 +122,8 @@ function Equipe() {
     <div className="ball"><i className="fas fa-cut"></i></div>
     <img src={jorgeperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <h5 className="card-title"><strong>Jorge</strong></h5>
+        <p className="card-text"><small>5 anos de experiência</small></p>
       </div>
     </div>
   </div>
@@ -132,8 +132,8 @@ function Equipe() {
     <div className="ball"><i className="fas fa-cut"></i></div>
     <img src={maiconperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title"><strong>Maicon</strong></h5>
+        <p className="card-text"><small>8 anos de experiência</small></p>
       </div>
     </div>
   </div>
@@ -142,8 +142,8 @@ function Equipe() {
     <div className="ball"><i className="fas fa-user-tie"></i></div>
     <img src={pianovo} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title"><strong>Juliano</strong></h5>
+        <p className="card-text"><small>3 anos de casa</small></p>
       </div>
     </div>
   </div>
@@ -152,8 +152,8 @@ function Equipe() {
     <div className="ball"><i className="fas fa-hot-tub"></i></div>
     <img src={estetica1} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title"><strong>Liliane</strong></h5>
+        <p className="card-text"><small>Esteticista - 5 anos de experiência</small></p>
       </div>
     </div>
   </div>
@@ -162,8 +162,8 @@ function Equipe() {
     <div className="ball"><i className="fas fa-hot-tub"></i></div>
     <img src={estetica2} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title"><strong>Patrícia</strong></h5>
+        <p className="card-text"><small>Podologa - 3 anos de experiência</small></p>
       </div>
     </div>
   </div>
@@ -172,8 +172,8 @@ function Equipe() {
     <div className="ball"><i className="fas fa-hot-tub"></i></div>
     <img src={wilmaperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title"><strong>Wilma</strong></h5>
+        <p className="card-text"><small>Massoterapeuta - 3 anos de experiência</small></p>
       </div>
     </div>
   </div>
@@ -182,8 +182,8 @@ function Equipe() {
     <div className="ball"><i className="fas fa-cut"></i></div>
     <img src={adaoperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title"><strong>Adão</strong></h5>
+        <p className="card-text"><small>34 anos de experiência</small></p>
       </div>
     </div>
   </div>
