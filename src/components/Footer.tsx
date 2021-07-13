@@ -7,9 +7,9 @@ export default function Footer(){
         <footer>
         <div className="social-menu">
         <ul>
-            <li><a href="https://www.facebook.com/barbeariaclube"><i className="fab fa-facebook"></i></a></li>
-            <li><a href="#"><i className="fab fa-whatsapp"></i></a></li>
-            <li><a href="https://www.instagram.com/barbeariaclube/"><i className="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/barbeariaclube">Face<i className="fab fa-facebook"></i></a></li>
+            {/* <li><a href="#"><i className="fab fa-whatsapp"></i></a></li> */}
+            <li><a href="https://www.instagram.com/barbeariaclube/">Insta<i className="fab fa-instagram"></i></a></li>
            
         </ul>
     </div>
