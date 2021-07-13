@@ -10,6 +10,7 @@
 body{
     background: rgb(77, 77, 77);
     font: 600 18px Nunito, sans-serif;
+    overflow-x: hidden;
 }
 
 

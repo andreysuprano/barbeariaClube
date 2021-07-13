@@ -23,9 +23,9 @@ export default function Menu() {
         <li className="nav-item">
           <Link id="hoverNav" className="nav-link" to="/servicos">Serviços</Link>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link id="hoverNav" className="nav-link" to="/galeria">Galeria</Link>
-        </li>
+        </li> */}
         <li className="nav-item">
           <Link id="hoverNav" className="nav-link" to="/contato">Contato</Link>
         </li>
