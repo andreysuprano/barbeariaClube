@@ -1,8 +1,12 @@
+
 #page-contato {
-    /* overflow: hidden; */
+   
     width: 100vw;
     height: 100vh;
     margin-bottom: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     
 }
 /* .map{
@@ -21,15 +25,73 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
-   height: 70vh;
-    margin: 0 auto;
-    margin-top: 8rem;
-    margin-bottom: -3rem;
-    border-radius: 3rem;
+    width: 50vw;
+    background-color: rgba(255, 248, 220, 0.322);
+     margin-top: -15rem;
+     border: solid 2px white;
+    
+  
     /* box-shadow: #010101 0px 0px 20px 2px; */
 }
-main{
-  
+.main-browser{
+   position: absolute;
     text-align: center;
+    bottom: 1.8rem;
 }
+
+
+.rowitems{
+    
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-evenly;
+}
+.rowitems ul li {
+    font-weight: 700;
+    color: blanchedalmond;
+    
+}
+.main-browser p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: rgba(247, 246, 245, 0.774);
+    font-weight: 900;
+ 
+}
+.rowitems small{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: rgba(90, 33, 5, 0.801);
+    width: 200px;
+    font-weight: 900;
+}
+.mapPhoto-mobile{
+    margin-top: -15rem;
+    
+}
+.main-mobile{
+    position: absolute;
+    text-align: center;
+    bottom: 1.8rem;
+}
+
+
+/* .page-contato-mobile{
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 16rem;
+  
+}
+.mapPhoto-mobile{
+    margin-top: 4rem;
+}
+
+.mobileh1{
+    
+    font-weight: 900;
+    color: blanchedalmond;
+} */

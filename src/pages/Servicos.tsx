@@ -17,7 +17,7 @@ function Servicos() {
         <ul className="list-group">
   <li className="list-group-item d-flex justify-content-between align-items-center">
     Corte completo
-    <span className="badge bg-dark rounded-pill">R$ 65,00</span>
+    <span className="badge bg-dark rounded-pill">R$ 70,00</span>
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
     Raspada só com máquina
@@ -25,15 +25,15 @@ function Servicos() {
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
     Pézinho
-    <span className="badge bg-dark rounded-pill">R$ 15,00</span>
+    <span className="badge bg-dark rounded-pill">R$ 20,00</span>
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
     Camuflagem cabelos brancos
-    <span className="badge bg-dark rounded-pill">R$ 65,00</span>
+    <span className="badge bg-dark rounded-pill">R$ 70,00</span>
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
     Tintura
-    <span className="badge bg-dark rounded-pill">R$ 65,00</span>
+    <span className="badge bg-dark rounded-pill">R$ 70,00</span>
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
     Hidratação capilar
@@ -46,6 +46,10 @@ function Servicos() {
   <li className="list-group-item d-flex justify-content-between align-items-center">
     Cabelo + barba
     <span className="badge bg-dark rounded-pill">R$ 105,00</span>
+  </li>
+  <li className="list-group-item d-flex justify-content-between align-items-center">
+    Cabelo Progressiva
+    <span className="badge bg-dark rounded-pill">R$ 140,00</span>
   </li>
 </ul>
 
@@ -60,7 +64,7 @@ function Servicos() {
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
     Barba só máquina
-    <span className="badge bg-dark rounded-pill">R$ 25,00</span>
+    <span className="badge bg-dark rounded-pill">R$ 30,00</span>
   </li>
 
 </ul>
@@ -163,16 +167,24 @@ function Servicos() {
     <span className="badge bg-dark rounded-pill">R$ 75,00</span>
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
+  Podologia - Laser
+    <span className="badge bg-dark rounded-pill">R$ 80,00</span>
+  </li>
+  <li className="list-group-item d-flex justify-content-between align-items-center">
+  Podologia - Jato de Plasma
+    <span className="badge bg-dark rounded-pill">R$ 75,00</span>
+  </li>
+  <li className="list-group-item d-flex justify-content-between align-items-center">
    Só unha encravada
     <span className="badge bg-dark rounded-pill">R$ 35,00</span>
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
     Curativo
-    <span className="badge bg-dark rounded-pill">R$ 25,00</span>
+    <span className="badge bg-dark rounded-pill">R$ 35,00</span>
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
     Órtese - cada
-    <span className="badge bg-dark rounded-pill">R$ 30,00</span>
+    <span className="badge bg-dark rounded-pill">R$ 35,00</span>
   </li>
 </ul>
 
@@ -221,15 +233,15 @@ Mão
         <ul className="list-group">
   <li className="list-group-item d-flex justify-content-between align-items-center">
  <strong>Pacote Ouro</strong> <small className="out">Cabelo, hidratação capilar, barba, mão, retirada de pelos faciais, massagem relaxante, faxina da cara e podologia.</small>
-    <span className="badge bg-dark rounded-pill">R$ 425,00</span>
+    <span className="badge bg-dark rounded-pill">R$ 500,00</span>
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
   <strong>Pacote Prata</strong><small className="out">Cabelo, hidratação capilar, barba, pé, mão, retirada de pelos faciais, hidratação facial e massagem relaxante.</small>
-    <span className="badge bg-dark rounded-pill">R$ 350,00</span>
+    <span className="badge bg-dark rounded-pill">R$ 410,00</span>
   </li>
   <li className="list-group-item d-flex justify-content-between align-items-center">
    <strong>Pacote Bronze</strong><small className="out">Cabelo, hidratação capilar, barba, pé, mão, retirada de pelos faciais e quick massage.</small>
-    <span className="badge bg-dark rounded-pill">R$ 250,00</span>
+    <span className="badge bg-dark rounded-pill">R$ 310,00</span>
   </li>
 </ul>
 </div>

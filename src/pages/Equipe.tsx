@@ -4,6 +4,8 @@ import Menu from "../components/Menu";
 
 import '../styles/pages/equipe.css';
 
+
+
 //imagens
 import perfilWag from '../images/wagperfil.jpeg';
 import adrianoperfil from '../images/adrianoperfil.jpeg';
@@ -37,7 +39,7 @@ function Equipe() {
   <div className="col">
     
     <div className="card">
-    <div className="ball"><i className="fas fa-cut"></i></div>
+    <div className="ball"><i className="fas fa-cut">B</i></div>
     <img src={perfilWag} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
         <h5 className="card-title"><strong>Wagner</strong></h5>
@@ -48,7 +50,7 @@ function Equipe() {
   <div className="col">
  
     <div className="card">
-    <div className="ball"><i className="fas fa-cut"></i></div>
+    <div className="ball"><i className="fas fa-cut">B</i></div>
     <img src={leoperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
         <h5 className="card-title"><strong>Léo</strong></h5>
@@ -59,7 +61,7 @@ function Equipe() {
   
   <div className="col">
     <div className="card">
-    <div className="ball"><i className="fas fa-cut"></i></div>
+    <div className="ball"><i className="fas fa-cut">B</i></div>
     <img src={adrianoperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
         <h5 className="card-title"><strong>Adriano</strong></h5>
@@ -69,7 +71,7 @@ function Equipe() {
   </div>
   <div className="col">
     <div className="card">
-    <div className="ball"><i className="fas fa-cut"></i></div>
+    <div className="ball"><i className="fas fa-cut">B</i></div>
     <img src={pedroperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
         <h5 className="card-title"><strong>Pedro</strong></h5>
@@ -79,7 +81,7 @@ function Equipe() {
   </div>
   <div className="col">
     <div className="card">
-    <div className="ball"><i className="fas fa-cut"></i></div>
+    <div className="ball"><i className="fas fa-cut">B</i></div>
     <img src={fernandoperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
         <h5 className="card-title"><strong>Fernando</strong></h5>
@@ -89,7 +91,7 @@ function Equipe() {
   </div>
   <div className="col">
     <div className="card">
-    <div className="ball"><i className="fas fa-cut"></i></div>
+    <div className="ball"><i className="fas fa-cut">B</i></div>
     <img src={guiperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
         <h5 className="card-title"><strong>Guilherme</strong></h5>
@@ -99,7 +101,7 @@ function Equipe() {
   </div>
   <div className="col">
     <div className="card">
-    <div className="ball"><i className="fas fa-cut"></i></div>
+    <div className="ball"><i className="fas fa-cut">B</i></div>
     <img src={walperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
         <h5 className="card-title"><strong>Waldemar</strong></h5>
@@ -109,7 +111,7 @@ function Equipe() {
   </div>
   <div className="col">
     <div className="card">
-    <div className="ball"><i className="fas fa-cut"></i></div>
+    <div className="ball"><i className="fas fa-cut">B</i></div>
     <img src={gustavoperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
         <h5 className="card-title"><strong>Gustavo</strong></h5>
@@ -119,7 +121,7 @@ function Equipe() {
   </div>
   <div className="col">
     <div className="card">
-    <div className="ball"><i className="fas fa-cut"></i></div>
+    <div className="ball"><i className="fas fa-cut">B</i></div>
     <img src={jorgeperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
         <h5 className="card-title"><strong>Jorge</strong></h5>
@@ -129,7 +131,7 @@ function Equipe() {
   </div>
   <div className="col">
     <div className="card">
-    <div className="ball"><i className="fas fa-cut"></i></div>
+    <div className="ball"><i className="fas fa-cut">B</i></div>
     <img src={maiconperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
         <h5 className="card-title"><strong>Maicon</strong></h5>
@@ -139,7 +141,7 @@ function Equipe() {
   </div>
   <div className="col">
     <div className="card">
-    <div className="ball"><i className="fas fa-user-tie"></i></div>
+    <div className="ball"><i className="fas fa-user-tie">R</i></div>
     <img src={pianovo} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
         <h5 className="card-title"><strong>Juliano</strong></h5>
@@ -149,7 +151,7 @@ function Equipe() {
   </div>
   <div className="col">
     <div className="card">
-    <div className="ball"><i className="fas fa-hot-tub"></i></div>
+    <div className="ball"><i className="fas fa-hot-tub">E</i></div>
     <img src={estetica1} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
         <h5 className="card-title"><strong>Liliane</strong></h5>
@@ -159,7 +161,7 @@ function Equipe() {
   </div>
   <div className="col">
     <div className="card">
-    <div className="ball"><i className="fas fa-hot-tub"></i></div>
+    <div className="ball"><i className="fas fa-hot-tub">E</i></div>
     <img src={estetica2} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
         <h5 className="card-title"><strong>Patrícia</strong></h5>
@@ -169,7 +171,7 @@ function Equipe() {
   </div>
   <div className="col">
     <div className="card">
-    <div className="ball"><i className="fas fa-hot-tub"></i></div>
+    <div className="ball"><i className="fas fa-hot-tub">E</i></div>
     <img src={wilmaperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
         <h5 className="card-title"><strong>Wilma</strong></h5>
@@ -179,7 +181,7 @@ function Equipe() {
   </div>
   <div className="col">
     <div className="card">
-    <div className="ball"><i className="fas fa-cut"></i></div>
+    <div className="ball"><i className="fas fa-cut">B</i></div>
     <img src={adaoperfil} className="card-img" alt="Barbearia Clube"/>
       <div className="card-body">
         <h5 className="card-title"><strong>Adão</strong></h5>
